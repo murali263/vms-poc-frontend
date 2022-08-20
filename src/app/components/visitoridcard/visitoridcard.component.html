@@ -1,0 +1,27 @@
+<div fxLayout="column" fxLayoutAlign="end end">
+
+  <button mat-button mat-dialog-close><mat-icon>clear</mat-icon></button>
+</div>
+<div fxLayout="column" fxLayoutAlign="center center">
+
+
+    <mat-card class="card" id="print-section">
+
+      <h1 style="margin-top: 47px;" > VISTOR PASS </h1>
+      <hr>
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <img class="circle" src="{{imageBinary}}" />
+        </div>
+        <div fxLayout="column" fxLayoutAlign="start start">
+        <h3 class="mb-0">NAME : {{data.visitor_name}}</h3>
+        <h3 class="mb-0">MOBILE NO : {{data.mobile}}</h3>
+        <h3 class="mb-0">REFER TO : {{data.refer_to}} </h3>
+        </div>
+
+
+  </mat-card>
+  <div fxLayout="row" fxLayoutAlign="center center" style="margin-top:3%;">
+  <button mat-raised-button printSectionId="print-section" ngxPrint><mat-icon>print</mat-icon>PRINT</button>
+    </div>
+    </div>
+
