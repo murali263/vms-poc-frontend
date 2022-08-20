@@ -1,0 +1,57 @@
+.card{
+    margin-top: 7%;
+    /* width:20%; */
+    height: 396px;
+    background:linear-gradient(to bottom, #E0EAFC 0%, #CFDEF3  51%, #E0EAFC  100%);
+
+    background-image: url('../../../assets/images/pass.png');
+    border-radius:20px;
+    border:2px solid black
+  }
+  h1{
+    color:black;
+    font-weight: 600;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  hr{
+
+    border: 1px solid black
+  }
+  h3{
+    color:black;
+    /* margin-left: 5%; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .circle {
+    height: 109px;
+    width: 125px;
+    background-color:white;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 39%;
+    }
+  }
+
+  ::ng-deep
+
+   .curve {
+    background-color: #8aa7ca;
+    height: 65px;
+    width: 160px;
+    -moz-border-radius-bottomright: 25px 50px;
+    border-bottom-right-radius: 25px 50px;
+  }
+  button{
+
+color:black;
+background-color: rgb(204, 204, 204);
+  }
+  .title{
+    margin-top: 17%;
+  }
